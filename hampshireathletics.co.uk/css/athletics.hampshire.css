@@ -1,0 +1,1442 @@
+html, body, ul, ol, dl, li, p, h1, h2, h3, h4, h5, h6, table, form, fieldset, textarea {
+  border:  none;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 90%;
+}
+ul ol, ol ul, ol ol, ul ul {
+  font-size: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial,Helvetica,sans-serif;
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 100%;
+}
+a {
+  font-family: "Trebuchet MS",Arial,sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+#banner {
+  background-image: url(../images/banner_athletics.gif);
+  background-repeat: no-repeat;
+  height: 120px;
+}
+#hsaa #banner, .hsaa #banner {
+  background-image: url(../images/banner_athletics_hsaa.gif);
+  background-repeat: no-repeat;
+  height: 120px;
+}
+#wrapper {
+  border: 1px solid black;
+  margin: 10px auto;
+  width: 1024px;
+  background-color: #ffffff;
+  text-align: left;
+  background-image: url(../images/wrapper_athletics.gif);
+  background-repeat: repeat-y;
+}
+#track #wrapper {
+  background-image: url(../images/wrapper_track.gif);
+  background-repeat: repeat-y;
+}
+#cross #wrapper {
+  background-image: url(../images/wrapper_cross.gif);
+  background-repeat: repeat-y;
+}
+#road #wrapper {
+  background-image: url(../images/wrapper_road.gif);
+}
+#sportshall #wrapper {
+  background-image: url(../images/wrapper_sportshall.gif);
+}
+#officials #wrapper {
+  background-image: url(../images/wrapper_officials.gif);
+}
+#hsaa #wrapper {
+  background-image: url(../images/wrapper_hsaa.gif);
+}
+#track.widecontent #wrapper, #cross.widecontent #wrapper, #road.widecontent #wrapper, #sportshall.widecontent #wrapper, #officials.widecontent #wrapper, #athletics.widecontent #wrapper {
+  background-image: url(../images/wrapper_wide.gif);
+  background-repeat: repeat-y;
+}
+#hsaa.widecontent #wrapper, #track.hsaa.widecontent #wrapper, #cross.hsaa.widecontent #wrapper {
+  background-image: url(../images/wrapper_hsaa_wide.gif);
+  background-repeat: repeat-y;
+}
+#navbar {
+  background-color: #dd0000;
+}
+#navbar ul {
+  margin: 0px 0px 0px 200px;
+  padding: 5px 0px;
+}
+#navbar ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+#navbar ul li a {
+  padding: 5px 25px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 9em;
+  text-decoration: none;
+  background-color: #dd0000;
+}
+#navbar ul li a:hover {
+  background-color: #990000;
+  text-decoration: underline;
+}
+#nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 10px;
+  float: left;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  width: 170px;
+}
+#nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  background-color: transparent;
+}
+#nav ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+#nav ul li a {
+  padding: 0px 0px 0px 6px;
+  font-weight: inherit;
+  font-size: 100%;
+  border-bottom-color: #000000;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  height: 1%;
+  color: black;
+  display: block;
+}
+#nav .navmain a {
+  font-size: 110%;
+  font-weight: bold;
+}
+#nav .navsub a {
+  color: black;
+  padding-left: 12px;
+  font-weight: inherit;
+}
+#nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+#nav .here {
+  border-right: 6px solid black;
+  color: white;
+}
+#nav .athletics a {
+  background-color: #80cc80;
+}
+#nav .athletics a:hover, #nav .athletics a.here {
+  background-color: #004000;
+}
+#nav .track a {
+  background-color: #ffb0b0;
+}
+#nav .track a:hover, #nav .track a.here {
+  background-color: #cc0000;
+}
+#nav .cross a {
+  background-color: #c0ffc0;
+}
+#nav .cross a:hover, #nav .cross a.here {
+  background-color: #00a000;
+}
+#nav .road a {
+  background-color: #dddddd;
+}
+#nav .road a:hover, #nav .road a.here {
+  background-color: black;
+}
+#nav .sportshall a {
+  background-color: #ddddff;
+}
+#nav .sportshall a:hover, #nav .sportshall a.here {
+  background-color: #0000aa;
+}
+#nav .officials a {
+  background-color: #b0f0f0;
+}
+#nav .officials a:hover, #nav .officials a.here {
+  background-color: #008080;
+}
+#nav .hsaa a {
+  background-color: red;
+}
+#nav .hsaa a:hover, #nav .hsaa a.here {
+  background-color: #a00010;
+}
+#nav .hsaa ul li a {
+  color: white;
+}
+#panel {
+  margin: 0px;
+  padding: 15px 8px 8px;
+  width: 144px;
+  float: right;
+}
+#panel h2 {
+  padding: 3px;
+  color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#panel p {
+  color: #006600;
+  padding-left: 10px;
+}
+#panel a {
+  font-weight: bold;
+}
+#panel hr {
+  background-color: #008400;
+}
+#panel .logos {
+  text-align: center;
+}
+#panel .athletics h2 {
+  background-color: #004000;
+}
+#panel .athletics a {
+  color: #004000;
+}
+#panel .athletics hr {
+  background-color: #004000;
+}
+#panel .track h2 {
+  background-color: #cc0000;
+}
+#panel .track a {
+  color: #a00000;
+}
+#panel .track p {
+  color: #a00000;
+}
+#panel .track hr {
+  background-color: #cc0000;
+}
+#panel .cross h2 {
+  background-color: #00a000;
+}
+#panel .cross a {
+  color: #008000;
+}
+#panel .cross hr {
+  background-color: #00a000;
+}
+#panel .road h2 {
+  background-color: black;
+}
+#panel .road a {
+  color: black;
+}
+#panel .road hr {
+  background-color: black;
+}
+#panel .sportshall h2 {
+  background-color: #000080;
+}
+#panel .sportshall a {
+  color: #000080;
+}
+#panel .sportshall hr {
+  background-color: #000080;
+}
+#panel .officials h2 {
+  background-color: #008080;
+}
+#panel .officials a {
+  color: #008080;
+}
+#panel .officials hr {
+  background-color: #008080;
+}
+#panel .hsaa h2 {
+  background-color: red;
+}
+#panel .hsaa a {
+  color: red;
+}
+#panel .hsaa hr {
+  background-color: red;
+}
+#content {
+  margin-right: 165px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.widecontent #content {
+  margin-right: 0px;
+}
+#content h1 {
+  margin: 0px 0px 15px;
+  padding: 0px 0px 5px 20px;
+  color: #000000;
+  font-family: "Trebuchet MS",Arial,sans-serif;
+  font-size: 200%;
+}
+#content h2 {
+  padding: 3px 0px 3px 20px;
+  margin-bottom: 10px;
+  font-size: 150%;
+  font-family: "Trebuchet MS",Arial,sans-serif;
+  margin-top: 10px;
+  color: black;
+}
+#content h2 a {
+  color: black;
+}
+#content h4 {
+  margin: 10px 10px 10px 20px;
+  padding: 3px 0px 3px 15px;
+  color: black;
+  font-family: "Trebuchet MS",Arial,sans-serif;
+}
+#content h6 {
+  padding-left: 0px;
+  font-size: 70%;
+}
+#content p {
+  margin: 10px 20px;
+}
+#content ul {
+  overflow: auto;
+  margin-left: 10px;
+  list-style-type: square;
+}
+#content ol {
+  list-style-type: decimal;
+  margin-left: 0px;
+  list-style-image: url();
+}
+#content li {
+  margin: 10px 20px;
+  font-size: 100%;
+}
+#content dl {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#content dt {
+  font-weight: bold;
+}
+#content iframe {
+  margin: 10px 20px;
+}
+#content table {
+  margin-left: 25px;
+}
+#content a:link, #footer a:link {
+  font-weight: bold;
+  text-decoration: none;
+}
+#content a:visited, #footer a:visited {
+  font-weight: bold;
+  text-decoration: none;
+}
+#content a:hover, #footer a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+#content .athletics h2 {
+  border-top: 3px solid #004000;
+  border-left: 15px solid #004000;
+  margin: 0px;
+  background-color: #80cc80;
+}
+#content .athletics h2 a {
+  color: black;
+}
+#content .athletics h6, #content .athletics a {
+  color: #004000;
+}
+#content .athletics h2.notice, #content .athletics h2.notice a {
+  border-style: none;
+  background-color: #80cc80;
+}
+#content .track h2 {
+  border-top: 3px solid #cc0000;
+  border-left: 15px solid #cc0000;
+  margin: 0px;
+  background-color: #ffb0b0;
+}
+#content .track h2 a {
+  color: black;
+}
+#content .track h4 {
+  background-color: #ffb0b0;
+}
+#content .track h6, #content .track a {
+  color: #cc0000;
+}
+#content .track h2.champs, #content .track h2.champs a {
+  color: black;
+  background-color: #ffb0b0;
+  border-left-style: none;
+  border-right-style: none;
+}
+#content .track h2.gp, #content .track h2.gp a {
+  border-left-style: none;
+  color: white;
+  border-right-style: none;
+  background-color: #cc0000;
+}
+#content .cross h2 {
+  border-top: 3px solid #00a000;
+  border-left: 15px solid #00a000;
+  margin: 0px;
+  background-color: #c0ffc0;
+}
+#content .cross h2 a {
+  color: black;
+}
+#content .cross h6, #content .cross a {
+  color: #00a000;
+}
+#content .cross h2.champs, #content .cross h2.champs a {
+  border-style: none;
+  background-color: #00a000;
+  color: white;
+  font-weight: bold;
+}
+#content .road h2 {
+  border-top: 3px solid black;
+  border-left: 15px solid black;
+  margin: 0px;
+  background-color: #dddddd;
+}
+#content .road h2 a {
+  color: black;
+}
+#content .road h6, #content .road a {
+  color: black;
+}
+#content .road h2.notice, #content .road h2.notice a {
+  border-style: none;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+#content .sportshall h2 {
+  border-top: 3px solid #000080;
+  border-left: 15px solid #000080;
+  margin: 0px;
+  background-color: #ddddff;
+}
+#content .sportshall h2 a {
+  color: black;
+}
+#content .sportshall h6, #content .sportshall a {
+  color: #000080;
+}
+#content .sportshall h2.notice, #content .sportshall h2.notice a {
+  border-style: none;
+  background-color: #008080;
+  color: white;
+  font-weight: bold;
+}
+#content .officials h2 {
+  border-top: 3px solid #008080;
+  border-left: 15px solid #008080;
+  margin: 0px;
+  background-color: #00ffff;
+}
+#content .officials h2 a {
+  color: black;
+}
+#content .officials h6, #content .officials a {
+  color: #008080;
+}
+#content .hsaa h2 {
+  border-top: 3px none red;
+  border-left: 15px double white;
+  margin: 0px;
+  background-color: #ff0000;
+  color: white;
+  padding-top: 6px;
+}
+#content .hsaa h2 a {
+  color: white;
+}
+#content .hsaa h6, #content .hsaa a {
+  color: red;
+}
+#athletics h1, #athletics h2 {
+  background-color: #80cc80;
+}
+#athletics h4 {
+  background-color: #80cc80;
+  font-size: 110%;
+  color: black;
+  font-weight: bold;
+  margin-right: 0px;
+}
+#athletics a {
+  color: #004000;
+}
+#athletics #content a:visited {
+  color: #509050;
+}
+#athletics #content h2 a:visited {
+  color: black;
+}
+#track h1, #track h2 {
+  background-color: #ffb0b0;
+}
+#track h4 {
+  background-color: #ffb0b0;
+  font-size: 110%;
+  color: black;
+  font-weight: bold;
+  margin-right: 0px;
+}
+#track a {
+  color: #a00000;
+}
+#track #content a:visited, #athletics #content .track a:visited {
+  color: #d05050;
+}
+#track #content h2 a:visited, #athletics #content h2 .track a:visited {
+  color: black;
+}
+#track h1.champs, #track h2.champs, #track h4.champs {
+  color: black;
+  background-color: #ffb0b0;
+}
+#track h1.gp, #track h2.gp, #track h4.gp {
+  background-color: #cc0000;
+  color: white;
+}
+#track thead {
+  background-color: #ffb0b0;
+  font-weight: bold;
+  text-align: center;
+}
+#cross h1, #cross h2 {
+  background-color: #c0ffc0;
+}
+#cross h4 {
+  font-size: 110%;
+  margin-right: 0px;
+  background-color: #c0ffc0;
+  font-weight: bold;
+  color: black;
+}
+#cross a {
+  color: #008000;
+}
+#cross #content a:visited, #athletics #content .cross a:visited {
+  color: #50a050;
+}
+#cross #content h2 a:visited, #athletics #content .cross h2 a:visited {
+  color: black;
+}
+#cross h1.champs, #cross h2.champs, #cross h4.champs {
+  background-color: #00a000;
+  color: white;
+  font-weight: bold;
+}
+#cross thead {
+}
+#road h1, #road h2 {
+  background-color: #909090;
+}
+#road h4 {
+  font-size: 110%;
+  margin-right: 0px;
+  background-color: #909090;
+  font-weight: bold;
+  color: black;
+}
+#road a {
+  color: black;
+}
+#road #content a:visited, #athletics #content .road a:visited {
+  color: #808080;
+}
+#road #content h2 a:visited, #athletics #content .road h2 a:visited {
+  color: black;
+}
+#road thead {
+  background-color: #909090;
+  font-weight: bold;
+  text-align: center;
+}
+#sportshall h1, #sportshall h2 {
+  background-color: #c0c0ff;
+}
+#sportshall h4 {
+  font-size: 110%;
+  font-weight: bold;
+  background-color: #c0c0ff;
+  margin-right: 0px;
+  color: black;
+}
+#sportshall a {
+  color: #000080;
+}
+#sportshall #content a:visited, #athletics #content .sportshall a:visited {
+  color: #5050a0;
+}
+#sportshall #content h2 a:visited, #athletics #content .sportshall h2 a:visited {
+  color: black;
+}
+#sportshall thead {
+  background-color: #c0c0ff;
+  font-weight: bold;
+  text-align: center;
+}
+#officials h1, #officials h2 {
+  background-color: #00c0c0;
+}
+#officials h4 {
+  font-size: 110%;
+  font-weight: bold;
+  background-color: #00ffff;
+  margin-right: 0px;
+  color: black;
+}
+#officials a {
+  color: #008080;
+}
+#officials #content a:visited, #athletics #content .officials a:visited {
+  color: #00c0c0;
+}
+#officials #content h2 a:visited, #athletics #content .officials h2 a:visited {
+  color: black;
+}
+#officials thead {
+  background-color: #00ffff;
+  font-weight: bold;
+  text-align: center;
+}
+#hsaa h1, #hsaa h2 {
+  background-color: red;
+  color: white;
+}
+#hsaa h4 {
+  margin-right: 0px;
+  background-color: red;
+  font-size: 110%;
+  font-weight: bold;
+  color: white;
+}
+#hsaa a {
+  color: red;
+}
+#hsaa #content a:visited, #athletics #content .hsaa a:visited {
+  color: #ff6666;
+}
+#hsaa #content h2 a:visited, #athletics #content .hsaa h2 a:visited {
+  color: white;
+}
+#hsaa thead {
+  text-align: center;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+#fell #content a:visited, #athletics #content .fell a:visited {
+  color: #cc66cc;
+}
+#mt #content a:visited, #athletics #content .mt a:visited {
+  color: #cc9933;
+}
+#footer {
+  border-top: 1px solid black;
+  padding: 5px;
+  background-color: white;
+  color: #666666;
+  clear: both;
+}
+#footer p {
+  padding: 0px;
+  font-size: 75%;
+}
+#footer a:link, #footer a:visited, #footer a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #666666;
+}
+.container {
+  width: 99%;
+  float: right;
+  margin-bottom: 10px;
+}
+div.container.athletics.notice {
+  border: 2pt solid #004000;
+}
+div.container.cross.champs {
+  border: 2pt solid #00a000;
+}
+div.container.track.champs {
+  border: 2pt solid #ff0000;
+}
+div.container.track.gp {
+  border: 2pt solid #cc0000;
+}
+div.container.road.notice {
+  border: 2pt solid black;
+}
+div.container.sportshall.notice {
+  border: 2pt solid #000080;
+}
+div.container.officials.notice {
+  border: 2pt solid #008080;
+}
+div.container.hsaa.notice {
+  border: 2pt solid red;
+}
+.leftimage {
+  border-style: none;
+  margin: 0px 10px 0px 0px;
+  border-left-width: medium;
+  float: left;
+}
+.rightimage {
+  border-style: none;
+  margin: 0px 0px 0px 10px;
+  width: 150px;
+  float: right;
+}
+.clearit {
+  clear: both;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.highlight {
+  border-top: 5px solid yellow;
+  border-bottom: 5px solid yellow;
+  font-weight: bold;
+  background-color: yellow;
+  font-size: large;
+}
+.lowlight {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  font-weight: bold;
+  background-color: black;
+  font-size: large;
+  color: white;
+}
+#calendar table {
+  border: 1px solid #80cc80;
+  width: 96%;
+  margin-left: 2%;
+  border-spacing: 0px;
+  margin-right: 2%;
+}
+#calendar td {
+  border: 1px solid #80cc80;
+  vertical-align: top;
+}
+#calendar .sat {
+  font-weight: bold;
+  color: red;
+  width: 13%;
+}
+#calendar .sun {
+  width: 13%;
+  color: green;
+  font-weight: bold;
+}
+#calendar .week {
+  color: black;
+  width: 13%;
+  font-weight: bold;
+}
+#calendar .fell a {
+  color: purple;
+}
+#calendar .mt a {
+  color: #808000;
+}
+#calendar tr.week {
+  background-color: #d0f0d0;
+}
+#calendar tr.cancelled {
+  background-color: #cccccc;
+}
+#calendar tr.virtual {
+  color: #6600cc;
+}
+#calendar .time {
+  width: 5%;
+  text-align: center;
+}
+#calendar .event {
+  width: 27%;
+}
+#calendar .notes {
+  width: 55%;
+}
+#calendar .track td.notes {
+  border-style: solid;
+  border-color: #80cc80 #ff8080 #80cc80 #80cc80;
+  border-width: 1px 10px 1px 1px;
+  vertical-align: top;
+}
+#calendar .cross td.notes {
+  border-style: solid;
+  border-color: #80cc80 #80ff80 #80cc80 #80cc80;
+  border-width: 1px 10px 1px 1px;
+  vertical-align: top;
+}
+#calendar .road td.notes {
+  border-style: solid;
+  border-color: #80cc80 #a0a0a0 #80cc80 #80cc80;
+  border-width: 1px 10px 1px 1px;
+  vertical-align: top;
+}
+#calendar .sportshall td.notes {
+  border-style: solid;
+  border-color: #80cc80 #8080ff #80cc80 #80cc80;
+  border-width: 1px 10px 1px 1px;
+  vertical-align: top;
+}
+#calendar .fell td.notes {
+  border-style: solid;
+  border-color: #80cc80 #ff80ff #80cc80 #80cc80;
+  border-width: 1px 10px 1px 1px;
+  vertical-align: top;
+}
+#calendar .mt td.notes {
+  border-style: solid;
+  border-color: #80cc80 #ffff80 #80cc80 #80cc80;
+  border-width: 1px 10px 1px 1px;
+  vertical-align: top;
+}
+#clubtable table, #nonclubtable table {
+  border: 1px solid #80cc80;
+  margin: 0% 2% 0% 0%;
+  width: 98%;
+  border-spacing: 0px;
+}
+#clubtable .clubline td, #clubtable .clubline th {
+  border-top-style: solid;
+  border-top-width: 5px;
+}
+#nonclubtable .clubline td, #nonclubtable .clubline th {
+  border-top-style: solid;
+  border-top-width: 3px;
+}
+#clubtable th, #nonclubtable th {
+  border: 1px solid #80cc80;
+  font-weight: normal;
+  font-style: italic;
+}
+#clubtable td, #nonclubtable td {
+  border: 1px solid #80cc80;
+  vertical-align: top;
+}
+#clubtable h2 {
+  margin: 0px;
+  padding: 3px 0px;
+  font-size: 130%;
+  background-color: white;
+}
+#nonclubtable h2 {
+  margin: 0px;
+  padding: 3px 0px;
+  background-color: white;
+  font-size: 120%;
+  font-style: italic;
+}
+#clubtable h2 a, #athletics #clubtable h2 a:visited, #nonclubtable h2 a, #athletics #nonclubtable h2 a:visited {
+  color: black;
+}
+#clubtable .club, #nonclubtable .club {
+  width: 30%;
+}
+#clubtable .members, #nonclubtable .members {
+  width: 8%;
+}
+#clubtable .age, #nonclubtable .age {
+  width: 7%;
+}
+#clubtable .venue, #nonclubtable .venue {
+  width: 35%;
+}
+#clubtable .times, #nonclubtable .times {
+  width: 20%;
+}
+#clubtable p, #nonclubtable p {
+  margin: 0px;
+}
+#constitution p {
+  font-weight: bold;
+  font-style: italic;
+}
+#constitution a {
+  font-style: normal;
+  font-weight: normal;
+}
+#constitution ol {
+  list-style-type: decimal;
+}
+#constitution ol p {
+  font-weight: normal;
+  font-style: normal;
+}
+#constitution ol ol {
+  list-style-type: lower-roman;
+}
+#constitution ol ol ol {
+  list-style-type: lower-alpha;
+}
+#constitution li {
+  font-weight: bold;
+}
+#constitution li li {
+  font-weight: normal;
+}
+#tfcentryform .formfield {
+  clear: both;
+  float: left;
+  width: 815px;
+}
+#tfcentryform label {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 150px;
+  font-weight: bold;
+}
+#tfcentryform .text {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 150px;
+}
+#tfcentryform input, #tfcentryform select {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 200px;
+}
+#tfcentryform select[name="teams[U13G]"], #tfcentryform select[name="teams[U15G]"], #tfcentryform select[name="teams[U17W]"], #tfcentryform select[name="teams[SW]"], #tfcentryform select[name="teams[W40]"], #tfcentryform select[name="teams[W50]"], #tfcentryform select[name="teams[W60]"], #tfcentryform select[name="teams[U13B]"], #tfcentryform select[name="teams[U15B]"], #tfcentryform select[name="teams[U17M]"], #tfcentryform select[name="teams[SM]"], #tfcentryform select[name="teams[M40]"], #tfcentryform select[name="teams[M50]"], #tfcentryform select[name="teams[M60]"] {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 50px;
+}
+#tfcentryform select[name="dobday"], #tfcentryform select[name="dobday[]"], #tfcentryform select[name="dobday_array[]"] {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 50px;
+}
+#tfcentryform select[name="dobmonth"], #tfcentryform select[name="dobmonth[]"], #tfcentryform select[name="dobmonth_array[]"] {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 90px;
+}
+#tfcentryform select[name="dobyear"], #tfcentryform select[name="dobyear[]"], #tfcentryform select[name="dobyear_array[]"] {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 60px;
+}
+#tfcentryform .radioset label {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 65px;
+}
+#tfcentryform .radiosetlong label {
+  margin: 0 10px 0 0;
+  float: left;
+  width: 500px;
+}
+#tfcentryform .radioset label[for="radioSet"] {
+  margin: 0 10px 10px 0;
+  float: left;
+  width: 150px;
+}
+#tfcentryform .radioset input {
+  margin: 0 10px 10px 0;
+  width: 20px;
+}
+#tfcentryform .radiosetlong input[type="radio"] {
+  margin: 0 10px 0 100px;
+  width: 20px;
+}
+#tfcentryform input[type="radio"] {
+  margin: 0 5px 5px 0;
+  width: 15px;
+}
+#tfcentryform thead {
+  text-align: left;
+}
+#tfcentryform input[type="checkbox"] {
+  margin: 0px 5px 0px 0px;
+  float: left;
+  width: 10px;
+}
+#track #tfcentryform td input {
+  margin: 0px;
+  width: 35px;
+}
+#tfcentryform input[type="submit"], #tfcentryform button {
+  margin: 0 10px 10px 0;
+  width: 120px;
+  font-weight: bold;
+  float: left;
+  height: 50px;
+  font-size: 150%;
+  cursor: pointer;
+}
+#tfcentryform input[value="Next"], #tfcentryform input[value="Save"], #tfcentryform input[value="Search"], #tfcentryform input[value="Update"], #tfcentryform input[value="Another"], #tfcentryform input[value="Finish"] {
+  float: right;
+}
+#tfcentryform .entrylist input {
+  margin: 0px;
+  width: 50px;
+  font-weight: bold;
+  height: 20px;
+  font-size: 90%;
+  float: left;
+}
+#tfcentryform .entrylist input[value="Update"] {
+  margin-right: 10px;
+  width: 60px;
+}
+#tfcentryform .entrylist input[value="Add entries"] {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 120px;
+  font-weight: bold;
+  height: 30px;
+  font-size: 150%;
+  float: right;
+}
+#tfcentryform .entrylist input[value="Delete"] {
+  float: right;
+}
+#tfcentryform .returnbutton input[type="submit"] {
+  width: 400px;
+  float: right;
+}
+#tfcentryform .switchbutton input[type="submit"] {
+  color: white;
+  width: 400px;
+  background-color: #cc0000;
+}
+#tfcentryform .message {
+  margin: 0px 10px 10px 0px;
+  float: left;
+  font-weight: bold;
+}
+#tfcentryform .fielderror {
+  margin: 0px 10px 10px 0px;
+  float: left;
+  width: 400px;
+  color: red;
+  font-weight: bold;
+}
+#tfcentryform .pberror {
+  color: red;
+  font-weight: bold;
+}
+#tfcentryform .warningerror {
+  margin: 0px 10px 10px 0px;
+  float: left;
+  color: red;
+  font-weight: bold;
+}
+#tfcentryform textarea {
+  border: 1px solid ;
+  margin: 0 10px 10px 20px;
+  float: left;
+}
+.rtable {
+  border-spacing: 0px;
+  margin-right: 2%;
+  width: 96%;
+}
+.revent {
+  width: 25%;
+}
+.rpos {
+  text-align: right;
+  width: 10%;
+  padding-right: 1em;
+}
+.rposa {
+  width: 5%;
+  text-align: right;
+  font-style: italic;
+  padding-right: 1em;
+}
+.rhants {
+  color: #006600;
+  font-weight: bold;
+  background-color: #eeffee;
+}
+.rpos1, .rpos2, .rpos3, .rpos0 {
+  font-weight: bold;
+}
+.rpos1 {
+  background-color: #ffcc00;
+}
+.rpos2 {
+  background-color: silver;
+}
+.rpos3 {
+  background-color: #ff6600;
+}
+.rpos0 {
+  background-color: #99ff99;
+}
+.rpos5 td {
+  background-color: #eeffee;
+}
+.rposx {
+  background-color: white;
+}
+.rteam {
+  font-weight: bold;
+  width: 60%;
+}
+.rname {
+  font-weight: bold;
+  width: 25%;
+}
+.rnames {
+  font-weight: bold;
+  width: 45%;
+}
+.rlnames {
+  width: 60%;
+  font-weight: bold;
+}
+.ragrp {
+  font-style: italic;
+  width: 5%;
+  font-weight: inherit;
+}
+.rclub {
+  width: 30%;
+}
+.rlclub {
+  width: 55%;
+}
+.rperf {
+  width: 10%;
+  text-align: right;
+  font-weight: bold;
+}
+.rpnts {
+  font-style: italic;
+  font-weight: normal;
+  text-align: right;
+  width: 5%;
+}
+.rnote {
+  width: 10%;
+  text-align: center;
+}
+.rlnote {
+  width: 30%;
+  padding-left: 10px;
+}
+.rrcbp {
+  width: 10%;
+  font-weight: bold;
+  text-align: center;
+}
+.rscor {
+  width: 5%;
+  font-weight: normal;
+  text-align: right;
+}
+.raggr {
+  text-align: right;
+  width: 10%;
+}
+.rmatch {
+  text-align: center;
+}
+.rsname {
+  width: 15%;
+  font-weight: bold;
+}
+.rslname {
+  font-weight: bold;
+  width: 24%;
+}
+.rsclub {
+  width: 20%;
+}
+.rsperf {
+  text-align: right;
+  width: 5%;
+  font-weight: bold;
+}
+.rspos {
+  width: 3%;
+  text-align: center;
+}
+.rspnts {
+  text-align: left;
+  font-style: italic;
+  width: 4%;
+}
+.rtpts {
+  font-weight: bold;
+  text-align: left;
+  width: 10%;
+}
+.rmemb {
+  font-weight: normal;
+  width: 15%;
+}
+.rmclub {
+  font-style: italic;
+  width: 25%;
+}
+.rmsubh {
+  width: 5%;
+  font-style: italic;
+}
+.rmperf {
+  width: 10%;
+  text-align: right;
+  font-weight: bold;
+}
+.rmpts {
+  width: 10%;
+  font-style: italic;
+  text-align: right;
+  font-weight: inherit;
+}
+.rqpos {
+  text-align: right;
+  width: 5%;
+  padding-right: 1em;
+}
+.rqpnts {
+  font-style: italic;
+  text-align: center;
+  width: 5%;
+}
+.gentable {
+  margin-left: 0;
+  margin-right: 2%;
+  width: 96%;
+  border-spacing: 0px;
+}
+.mem {
+  border-top-width: thin;
+  border-bottom-width: thin;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+.rpos.mem {
+  border-left-style: solid;
+  border-left-width: thin;
+}
+.rperf.mem {
+  border-right-style: solid;
+  border-right-width: thin;
+}
+.gentableb, .gentableo {
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 0;
+  margin-right: 2%;
+  border-spacing: 0px;
+  width: 96%;
+  border-collapse: collapse;
+}
+.gentableb td {
+  border-style: solid;
+  border-width: 1px;
+}
+.genrowo {
+  background-color: #00ffff;
+}
+.genrowc {
+  background-color: #cccccc;
+}
+.gencol5 {
+  width: 5%;
+}
+.gencol10 {
+  width: 10%;
+}
+.gencol10b {
+  font-weight: bold;
+  width: 10%;
+}
+.gencol10bc {
+  font-weight: bold;
+  text-align: center;
+  width: 10%;
+}
+.gencol10c {
+  width: 10%;
+  text-align: center;
+}
+.gencol10r {
+  width: 10%;
+  text-align: right;
+  padding-right: 10px;
+}
+.gencol15 {
+  width: 15%;
+}
+.gencol15b {
+  width: 15%;
+  font-weight: bold;
+}
+.gencol15bc {
+  font-weight: bold;
+  text-align: center;
+  width: 15%;
+}
+.gencol15c {
+  width: 15%;
+  text-align: center;
+}
+.gencol15c img {
+  border-style: none;
+}
+.gencol15r {
+  width: 15%;
+  text-align: right;
+  padding-right: 10px;
+}
+.gencol20 {
+  width: 20%;
+}
+.gencol20b {
+  width: 20%;
+  font-weight: bold;
+}
+.gencol20bc {
+  text-align: center;
+  width: 20%;
+  font-weight: bold;
+}
+.gencol20c {
+  text-align: center;
+  width: 20%;
+}
+.gencol20c img {
+  border-style: none;
+}
+.gencol20r {
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+}
+.gencol25 {
+  width: 25%;
+}
+.gencol25b {
+  font-weight: bold;
+  width: 25%;
+}
+.gencol30 {
+  width: 30%;
+}
+.gencol30b {
+  font-weight: bold;
+  width: 30%;
+}
+.gencol30bt {
+  width: 30%;
+  font-weight: bold;
+  vertical-align: top;
+}
+.gencol35 {
+  width: 35%;
+}
+.gencol40 {
+  width: 40%;
+}
+.gencol40b {
+  font-weight: bold;
+  width: 40%;
+}
+.gencol40c {
+  text-align: center;
+  width: 40%;
+}
+.gencol50 {
+  width: 50%;
+}
+.gencol60 {
+  width: 60%;
+}
+.gencol60c {
+  width: 60%;
+  text-align: center;
+}
+.gencol70 {
+  width: 70%;
+}
+.gencol80 {
+  width: 80%;
+}
+.tmcross {
+  width: 40%;
+  background-color: #e0ffe0;
+}
+.tmtrack {
+  width: 40%;
+  background-color: #ffe0e0;
+}
+@media print {
+  #banner, #navbar, #nav, #panel, #footer { display: none;
+}
+  #wrapper { border:  none;
+  }
+  #content { margin-left: 0px;
+  margin-right: 0px;
+  }
+  #content h1 { margin: 0px;
+  }
+  #content h2 { border:  none;
+  padding: 0px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 120%;
+  }
+  #content p { margin: 20px 0px;
+  }
+  #content a, #track #content a:visited { color: black;
+  }
+  .resultsheat { border:  none;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 100%;
+  background-color: white;
+  }
+  .resultswind td { border:  none;
+  background-color: white;
+  font-style: italic;
+  padding-left: 0px;
+  }
+}
