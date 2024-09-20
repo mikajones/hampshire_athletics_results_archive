@@ -1,0 +1,366 @@
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset {
+  border:  none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: Arial,Helvetica,sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 100%;
+}
+#wrapper {
+  border: 1px solid black;
+  margin: 10px auto;
+  background-image: url(../images/wrapper_scvets.gif);
+  width: 1024px;
+  text-align: left;
+  background-color: #ffffff;
+  background-repeat: repeat-y;
+}
+#banner {
+  background-image: url(../images/banner_scvets.gif);
+  background-repeat: no-repeat;
+  height: 100px;
+}
+#leftcol {
+  padding-bottom: 5px;
+  float: left;
+  width: 170px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#leftcol #nav {
+  border-bottom: 1px solid black;
+}
+#leftcol #nav ul {
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  background-color: transparent;
+}
+#leftcol #nav ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+#leftcol #nav ul li a {
+  border-bottom: 1px solid #000000;
+  padding: 4px 0px 6px 6px;
+  height: 1%;
+  color: white;
+  display: block;
+  background-color: #84b084;
+  text-decoration: none;
+}
+#leftcol #nav ul li a:hover {
+  border-right: 1px solid #2c382c;
+  border-bottom: 1px solid #2c382c;
+  background-color: #587058;
+  color: white;
+  text-decoration: underline;
+}
+#leftcol #nav ul li p {
+  border-right: 10px solid #2c382c;
+  border-bottom: 1px solid #000000;
+  padding: 4px 0px 6px 6px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  background-color: #587058;
+  height: 1%;
+  text-decoration: none;
+}
+#leftcol #nav .navabove a {
+  color: #666666;
+  background-color: #e0ffe0;
+}
+#leftcol #nav .navbelow a {
+  padding-left: 12px;
+}
+#rightcol {
+  margin: 0px;
+  padding: 15px 8px 8px;
+  background-color: #877d6c;
+  width: 144px;
+  float: right;
+}
+#rightcol p {
+  color: white;
+}
+#content {
+  margin-left: 200px;
+}
+#content h1 {
+  margin: 20px;
+  padding: 0px;
+  font-family: Calisto MT,Times New Roman,serif;
+  color: #000000;
+  font-size: 200%;
+}
+#content h2 {
+  border-right: 10px solid #2c382c;
+  padding: 0px 0px 0px 5px;
+  background-color: #587058;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 120%;
+}
+#content p {
+  margin: 20px;
+}
+#content ul {
+  list-style-type: square;
+  margin-left: 40px;
+}
+#footer {
+  border-top: 1px solid black;
+  padding: 5px;
+  background-color: white;
+  color: #666666;
+  clear: both;
+}
+#footer p {
+  padding: 0px;
+  font-size: 70%;
+}
+#content a:link, #footer a:link {
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Calisto MT,Times New Roman,serif;
+  color: #587058;
+}
+#content a:visited {
+  color: #84b084;
+  text-decoration: none;
+  font-family: Calisto MT,Times New Roman,serif;
+  font-weight: bold;
+}
+#footer a:visited {
+  color: #587058;
+  text-decoration: none;
+  font-family: Calisto MT,Times New Roman,serif;
+  font-weight: bold;
+}
+#content a:hover, #footer a:hover {
+  font-family: Calisto MT,Times New Roman,serif;
+  text-decoration: underline;
+  color: #587058;
+  font-weight: bold;
+}
+#champstable {
+  width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+#champstable thead tr {
+  background-color: #ffffa0;
+  font-weight: bold;
+}
+.container {
+  width: 99%;
+  float: right;
+  margin-bottom: 20px;
+}
+.leftimage {
+  border: 1px solid black;
+  margin: 0px 10px 20px 0px;
+  float: left;
+}
+.rightimage {
+  border: 1px solid black;
+  margin: 0px 0px 20px 15px;
+  float: right;
+  width: 150px;
+}
+.clearit {
+  clear: both;
+}
+.fixturetable {
+  border-right: 1px solid #2c382c;
+  margin-left: 2%;
+  border-left-width: 1px;
+  border-left-style: solid;
+  margin-right: 2%;
+  border-bottom-color: #2c382c;
+  border-collapse: collapse;
+  background-color: #e0ffe0;
+}
+.fixturetable tr {
+  border-top: 5px solid #84b084;
+}
+.fixturetable tr.fixturedown {
+  border-top-style: none;
+}
+.fixturetable td {
+  border: 1px solid #84b084;
+}
+.fixturemtch {
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+.fixturedate {
+  width: 20%;
+  text-align: center;
+}
+.fixturevenu {
+  width: 30%;
+  text-align: center;
+}
+.fixturedata {
+  width: 20%;
+  text-align: center;
+}
+.fixturedown {
+  background-color: white;
+  text-align: center;
+}
+.leaguetable {
+  width: 96%;
+  border-spacing: 0px;
+  font-size: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.leaguetable thead tr {
+  background-color: #ffffa0;
+  font-weight: bold;
+  text-align: center;
+}
+.leagueposn {
+  width: 5%;
+  text-align: center;
+}
+.leagueclub {
+  width: 30%;
+  font-weight: bold;
+}
+.leaguescor {
+  width: 8%;
+  text-align: right;
+}
+.leaguepnts {
+  width: 5%;
+  font-style: italic;
+  text-align: center;
+}
+.leaguetotl {
+  text-align: right;
+  width: 5%;
+  font-weight: bold;
+}
+.leagueaggr {
+  font-style: italic;
+  width: 8%;
+  text-align: center;
+}
+.resultstable {
+  width: 96%;
+  margin-left: 2%;
+  border-spacing: 0px;
+  margin-right: 2%;
+}
+.resultsheat {
+  border-right: 10px solid #ffc800;
+  font-weight: bold;
+  font-size: 100%;
+  background-color: #ffffa0;
+  padding-left: 1em;
+}
+.resultswind td {
+  border-right: 10px solid #ffc800;
+  background-color: #ffffd0;
+  font-style: italic;
+  padding-left: 1em;
+}
+.resultsposn {
+  width: 7%;
+  padding-right: 5em;
+  text-align: right;
+}
+.resultsposnother {
+  font-style: italic;
+  padding-right: 5em;
+  width: 7%;
+  text-align: right;
+}
+.resultsteam {
+  font-weight: bold;
+  width: 68%;
+}
+.resultsname {
+  width: 30%;
+  font-weight: bold;
+}
+.resultsnameother {
+  font-weight: inherit;
+  width: 30%;
+  font-style: italic;
+}
+.resultsagrp {
+  font-style: italic;
+  width: 8%;
+}
+.resultsclub {
+  width: 30%;
+}
+.resultsclubother {
+  width: 30%;
+  font-style: italic;
+}
+.resultsperf {
+  width: 8%;
+  text-align: right;
+  font-weight: bold;
+}
+.resultsperfother {
+  text-align: right;
+  width: 8%;
+  font-weight: inherit;
+  font-style: italic;
+}
+.resultspnts {
+  font-style: italic;
+  width: 5%;
+  text-align: right;
+}
+.resultsnote {
+  width: 12%;
+  font-weight: bold;
+  text-align: center;
+}
+@media print {
+  #banner, #leftcol, #nav, #rightcol, #footer { display: none;
+}
+  #content { margin-left: 0px;
+  }
+  #content h1 { margin: 0px;
+  }
+  #content h2 { border:  none;
+  padding: 0px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 120%;
+  }
+  #content p { margin: 20px 0px;
+  }
+  .resultsheat { border:  none;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 100%;
+  background-color: white;
+  }
+  .resultswind td { border:  none;
+  background-color: white;
+  font-style: italic;
+  padding-left: 0px;
+  }
+}
